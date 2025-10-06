@@ -1,0 +1,13 @@
+{
+  "val": {
+    "loss": 0.7126206755638123,
+    "compile_metrics": 0.8044675588607788,
+    "best_threshold": 0.8,
+    "val_dice_thresh_best": 0.7640277730004373
+  },
+  "test": {
+    "loss": 0.7163436412811279,
+    "compile_metrics": 0.7918636798858643,
+    "test_dice_at_best_threshold": 0.7391636412531934
+  }
+}
