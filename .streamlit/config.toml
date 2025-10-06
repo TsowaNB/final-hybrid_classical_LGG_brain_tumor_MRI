@@ -1,0 +1,16 @@
+[theme]
+base = "light"
+primaryColor = "#2b8a3e"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f6f6f6"
+textColor = "#262730"
+
+[client]
+showErrorDetails = true
+
+[server]
+headless = true
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
