@@ -27,7 +27,7 @@ from step4a import train as hybrid_train, CombinedBCEDiceLoss, dice_coefficient
 from step7a import load_model as load_hybrid_model, evaluate_test as evaluate_hybrid_test
 
 
-st.set_page_config(page_title="Hybrid Quantum U-Net", layout="wide")
+st.set_page_config(page_title="Hybrid Quantum U-Net", layout="wide", initial_sidebar_state="collapsed")
 
 
 def make_overlay(image: np.ndarray, mask_true: np.ndarray, mask_pred: np.ndarray) -> np.ndarray:

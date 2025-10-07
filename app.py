@@ -33,7 +33,7 @@ st.set_page_config(
     page_title="Hybrid Quantum U-Net — Quick Predict",
     page_icon="🧠",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
     menu_items={
         "Get Help": "https://docs.streamlit.io/",
         "Report a bug": "https://github.com/streamlit/streamlit/issues",
